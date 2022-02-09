@@ -1,0 +1,901 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background: #DFE3C6;
+  
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+    background: saddlebrown;
+}
+
+.link{
+    line-height: 100px;
+    color: yellow;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 22px;
+    font-family: cursive;
+    opacity: 0.9;
+    transition: 0.6s;
+}
+
+.link:hover{
+    opacity: 1;
+    transform: scaleX(1.3);
+    background: dodgerblue;
+    text-decoration: underline;
+}
+
+
+
+
+.vernagir1{
+    line-height: 100px;
+    font-size: 38px;
+    color: #F6B302;
+    transition: 1s;
+}
+
+.vernagir1:hover{
+    transform: scalex(1.3);
+    background: limegreen;
+    color: rgb(40, 40, 58);
+}
+
+
+
+
+
+.aside1{
+    display: inline-block;
+    width: 390px;
+    height: 700px;
+    background: #CD8F5E;
+}
+
+
+.aside2{
+    
+    width: 389px;
+    height: 700px;
+    background: #67763D;
+    float: right;
+}
+
+
+
+
+
+.menu{
+    position: relative;
+    bottom: 700px;
+    width: 1200px;
+    height: 15000px;
+    background: khaki;
+    border-left: 12px outset darkred;
+    border-top: 12px inset darkblue;
+    border-right: 12px outset darkorange;
+}
+
+
+
+.vernagir2{
+    position: relative;
+    top: 110px;
+    font-size: 65px;
+    color: #A26A1B;
+    font-weight: bolder;
+    font-family: arial;
+    animation: madridanimation 2s infinite alternate;
+}
+
+@keyframes madridanimation {
+    from{
+        color: cornsilk;
+        background: crimson;
+    
+    }
+
+    to{
+        color: black;
+        background: cyan;
+    }
+}
+
+
+
+.nkar2{
+    width: 200px;
+    height: 200px;
+    margin-right: 580px;
+    position: relative;
+    bottom: 46px;
+    transition: 0.7s;
+}
+
+.nkar2:hover{
+    transform: scale(1.3);
+}
+
+
+
+.nkar3{
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+    position: relative;
+    bottom: 250px;
+    transition: 0.7s;
+}
+
+.nkar3:hover{
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+.text1{
+    position: relative;
+    bottom: 250px;
+    margin: 40px;
+    color: teal;
+    font-family: arial;
+    font-weight: bold;
+    font-style: inherit;
+
+    font-size: 24px;
+    opacity: 0.8;
+    transition: 0.7s;
+}
+
+
+.text1:hover{
+    opacity: 1;
+    background: #F6DC70;
+    color: darkblue;
+}
+
+ins{
+    color: darkred;
+}
+
+
+
+
+.text2{
+    position: relative;
+    bottom: 250px;
+    margin: 40px;
+    color: teal;
+    font-family: arial;
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 24px;
+    opacity: 0.8;
+    transition: 0.7s;
+}
+
+.text2:hover{
+    opacity: 1;
+    background: #F6DC70;
+    color: darkred;
+}
+
+
+
+.text3{
+    position: relative;
+    bottom: 240px;
+    margin: 40px;
+    color: firebrick;
+    font-family: arial;
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 27px;
+    opacity: 0.8;
+    transition: 0.7s;
+}
+
+.text3:hover{
+    opacity: 1;
+    background: #F6DC70;
+    color: darkred;
+}
+
+
+
+.nkar4{
+    width: 390px;
+    height: 310px;
+    opacity: 0.8;
+    transition: 0.6s;
+}
+
+.nkar4:hover{
+    opacity: 1;
+}
+
+
+.nkar5{
+    margin-top: 30px;
+    width: 390px;
+    height: 310px;
+    opacity: 0.8;
+    transition: 0.6s;
+}
+
+.nkar5:hover{
+    opacity: 1;
+}
+
+
+
+
+
+hr{
+    position: relative;
+    bottom: 210px;
+}
+
+
+.patmutyun{
+    width: 100%;
+    height: 15000px;
+    background: #C4CFD5;
+    position: relative;
+    bottom: 210px;
+}
+
+
+.vernagir3{
+    line-height: 150px;
+    font-size: 70px;
+    color: brown;
+    font-style: inherit;
+    background: navajowhite;
+    transition: 2s;
+}
+
+.vernagir3:hover{
+    background: olive;
+    transform: rotatey(360deg);
+}
+
+
+
+.tariner1{
+    line-height: 100px;
+    font-size: 35px;
+    animation: anime1 3s infinite alternate;
+  
+}
+
+
+@keyframes anime1{
+    from{
+        color: black;
+        background: #FDC834;
+        font-family: cursive;
+        
+    }
+
+    to{
+        color: white;
+        background: #1C56A4;
+        font-family: arial;
+        
+    }
+}
+
+
+.border1{
+        height: 400px;
+        width: 500px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Madrid_C.F._1905-06.jpg/220px-Madrid_C.F._1905-06.jpg');
+        background-size: contain;
+        margin-top: 40px;
+        animation: animation1 3s infinite alternate;
+}
+
+@keyframes animation1 {
+    from{
+        border: 30px groove darkblue;
+    } 
+
+    to{
+        border: 30px groove brown;
+    }
+}
+
+
+
+
+
+
+
+.patm1{
+    margin: 40px;
+    font-family: cursive;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: initial;
+    color: midnightblue;
+    transition: 1s;
+}
+
+.patm1:hover{
+    background: khaki;
+    
+}
+
+
+
+.patm2{
+    margin: 40px;
+    font-family: cursive;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: initial;
+    color: midnightblue;
+    transition: 1s;
+}
+
+.patm2:hover{
+    background: khaki;
+    
+}
+
+
+
+
+.tariner2{
+    margin-top: 100px;
+    line-height: 100px;
+    font-size: 35px;
+    animation: anime2 3s infinite alternate;
+}
+
+@keyframes anime2{
+    from{
+        color: black;
+        background: #FDC834;
+        font-family: arial;
+    }
+
+    to{
+        color: white;
+        background: #1C56A4;
+        font-family: cursive;
+    }
+}
+
+
+.border2{
+    width: 500px;
+    height: 350px;
+    background-image: url('http://s017.radikal.ru/i418/1601/85/71bdff3683ef.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: animation2 3s infinite alternate; 
+    margin-top: 40px;
+}
+
+@keyframes animation2{
+    from{
+        border: 30px inset brown;
+    }
+
+    to{
+        border: 30px outset darkblue;
+    }
+}
+
+
+
+.patm3{
+    margin: 40px;
+    font-family: cursive;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: initial;
+    color: midnightblue;
+    transition: 1s;
+}
+
+.patm3:hover{
+    background: khaki;
+    
+}
+
+.patm3::first-letter{
+    color: maroon;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+.tariner3{
+    line-height: 100px;
+    font-size: 35px;
+    margin-top: 100px;
+    animation: anime3 3s infinite alternate;
+}
+
+@keyframes anime3{
+    from{
+        font-family: cursive;
+        color: white;
+        background: #1C56A4;
+       ;
+    }
+
+    to{
+        font-family: arial;
+        color: black;
+        background: #FDC834;
+    }
+}
+
+
+.border3{
+    width: 500px;
+    height: 334px;
+    background-image: url('http://masters.donntu.org/2018/feht/oksak/ind/images/image1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    animation: animation3 3s infinite alternate;
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.border3:hover{
+    opacity: 1;
+}
+@keyframes animation3{
+    from{
+        border: 30px dashed forestgreen;
+    }
+
+    to{
+        border: 30px dashed brown;
+    }
+}
+
+.patm4{
+    color: midnightblue;
+    font-size: 26px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    margin: 40px;
+    transition: 1s;
+    line-height: 50px;
+}
+
+.patm4:hover{
+    background: khaki;
+}
+
+
+
+
+
+.tariner4{
+    line-height: 100px;
+    margin-top: 100px;
+    font-size: 35px;
+    animation: anime4 3s infinite alternate;
+}
+
+@keyframes anime4 {
+    from{
+        color: maroon;
+        background: slategray;
+        font-family: arial;
+    }
+
+    to{
+        color: navy;
+        background: olivedrab;
+        font-family: arial;
+    }
+}
+
+.border4{
+    width: 500px;
+    height: 350px;
+    background-image: url('https://mamul.am/images/photos/190618/verjin-haghtanaknery-hayastani-n153705-1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    animation: animation4 3s infinite alternate;
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.border4:hover{
+    opacity: 1;
+}
+
+
+@keyframes animation4{
+    from{
+        border: 30px double green;
+    }
+    to{
+        border: 30px double darkturquoise;
+    }
+}
+
+.boske{
+    margin-top: 300px;
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: bold;
+    color: royalblue;
+    
+}
+
+
+
+.patm5{
+    color: midnightblue;
+    line-height: 48px;
+    margin: 30px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    transition: 1s;
+}
+
+.patm5:hover{
+    background: khaki;
+}
+
+
+
+.patm6{
+    color: midnightblue;
+    line-height: 48px;
+    margin: 30px;
+    margin-top: 80px;
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.patm6:hover{
+    background: khaki;
+}
+
+
+
+
+
+.tariner5{
+    line-height: 100px;
+    font-size: 35px;
+    margin-top: 100px;
+    animation: anime5 3s infinite alternate;
+}
+
+@keyframes anime5{
+    from{
+        color: firebrick;  
+        background: lightskyblue;
+    }
+
+    to{
+        color: indigo;
+        background: lightseagreen;
+    }
+}
+
+
+
+
+
+
+.border5{
+    width: 300px;
+    height: 600px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Cristiano_Ajax.jpg/170px-Cristiano_Ajax.jpg');
+    background-size: cover;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin: 30px;
+    animation: animation5 3s infinite alternate;
+}
+
+
+@keyframes animation5{
+    from{
+        border: 20px groove #CD8F5E;
+    }
+
+    to{
+        border: 20px groove yellowgreen;
+
+    }
+}
+
+
+
+.patm7{
+    color: indigo;
+    line-height: 40px;
+    margin: 30px;
+   
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.patm7:hover{
+    background: khaki;
+}
+
+
+
+.patm8{
+    color: indigo;
+    line-height: 40px;
+    margin: 30px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.patm8:hover{
+    background: khaki;    
+}
+
+
+
+
+.patm9{
+    color: indigo;
+    line-height: 40px;
+    margin: 30px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.patm9:hover{
+    background: khaki;
+}
+
+
+
+
+
+.tariner6{
+    line-height: 100px;
+    font-size: 35px;
+    margin-top: 100px;
+    animation: anime6 3s infinite alternate;
+}
+
+@keyframes  anime6{
+    from{
+        background: teal;
+        color: tan;
+        font-family: arial;
+    }
+
+    to{
+        background: chocolate;
+        color: antiquewhite;
+        font-family: arial;
+    }
+}
+
+
+
+.border6{
+    width: 400px;
+    height: 600px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Carlo_Ancelotti_2016_%28cropped%29.jpg/250px-Carlo_Ancelotti_2016_%28cropped%29.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 30px;
+    animation: animation6 3s infinite alternate;
+    opacity: 0.9;
+    transition: 1s;
+}
+
+
+.border6:hover{
+    opacity: 1;
+
+}
+@keyframes animation6{
+    from{
+        border: 25px ridge peru;
+    }
+
+    to{
+        border: 25px ridge lightseagreen;
+    }
+}
+
+
+.karlo{
+    margin-top: 500px;
+    font-size: 45px;
+    color: darkred;
+    background: lightyellow;
+  
+}
+
+
+.patm10{
+    color: indigo;
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 30px;
+    transition: 1s;
+}
+
+.patm10:hover{
+    background: khaki;
+}
+
+
+
+
+
+
+.tariner7{
+    line-height: 100px;
+    font-size: 40px;
+   
+    margin-top: 100px;
+    animation: anime7 3s infinite alternate;
+}
+
+@keyframes anime7{
+    from{
+        color: peru;
+        background: royalblue;
+        font-family: monospace;
+    }
+    
+    to{
+        color: indigo;
+        background: sandybrown;
+        font-family: monospace;
+    }
+}
+
+
+
+
+
+.border7{
+    width: 400px;
+    height: 350px;
+    background-image: url('https://i.mycdn.me/i?r=AyH4iRPQ2q0otWIFepML2LxR0hCU8H5dRqGEMCfkVIKdVA');
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 30px;
+    animation: animation7 3s infinite alternate;
+    opacity: 0.9;
+    transition: 1s;
+}
+
+.border7:hover{
+    opacity: 1;
+}
+
+@keyframes animation7 {
+    from{
+        border: 30px ridge #8FC461;
+    }
+
+    to{
+        border: 30px ridge #AFA676;
+    }
+}
+
+
+.patm11{
+    color: purple;
+    margin: 30px;
+    font-size: 27px;
+    line-height: 40px;
+    font-family: arial;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.patm11:hover{
+    background: lightblue;
+    color: midnightblue;
+}
+
+
+
+.border8{
+    width: 1000px;
+    height: 720px;
+    background-image: url('https://images.performgroup.com/di/library/omnisport/b9/6c/zinedine-zidane_1ucvd2d1l76pw1i41t4dsoq3r9.jpg?t=-616905725');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    border: 30px ridge darkkhaki;
+}
+
+
+.zidane{
+    margin-top: 540px;
+    line-height: 150px;
+    font-size: 60px;
+    animation: zizu 2s infinite alternate;
+}
+
+@keyframes zizu {
+    from{   
+        color: sandybrown;
+        background: sienna;
+        text-shadow: 2px 2px;
+    }
+
+    to{
+        color: brown;
+        background: teal;
+        text-shadow: 2px 2px;
+    }
+}
+
+
+.zidane::first-letter{
+    color: midnightblue;
+    font-size: 150px;
+    font-style: italic;
+}
+
+
+
+.patm12{
+    color: purple;
+    margin: 20px;
+    margin-top: 100px;
+    font-size: 27px;
+    line-height: 40px;
+    font-family: arial;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.patm12:hover{
+    background: lightblue;
+    color: midnightblue;
+}
